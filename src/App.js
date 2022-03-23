@@ -56,7 +56,7 @@ export default class App extends Component {
     if (this.state.books.length === 0) {
       return (
         <div className="load">
-          <img src="https://raw.githubusercontent.com/AaryanShaikh/react-probooks/main/pro-books/src/res/load.gif" alt="loading" />
+          <img src="" alt="loading" />
         </div>
       );
     }
